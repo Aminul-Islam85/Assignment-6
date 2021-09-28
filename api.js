@@ -32,7 +32,7 @@ const displaySearchResult = docs => {
 
 
         div.innerHTML = `
-        <div class="card h-100 m-50">
+        <div class="card h-100">
             <img src="https://covers.openlibrary.org/b/id/${cover_i}-M.jpg" class="card-img-top img-fluid w-50" alt="">
             <div class="card-body">
             <h5 class="card-text"> <u> Book title :</u> ${bookTitle}</h5>
